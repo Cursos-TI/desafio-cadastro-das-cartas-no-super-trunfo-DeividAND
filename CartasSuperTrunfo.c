@@ -6,6 +6,22 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    char cidade[30];
+    int populacao;
+    float area;
+    float pib;
+    int n_pontos_turisticos;
+
+    printf("Informe o código da cidade: ");
+    scanf("%s", &cidade);
+    printf("Informe a sua população: ");
+    scanf("%d", &populacao);
+    printf("Informe a sua área: ");
+    scanf("%f", &area);
+    printf("Informe o PIB: ");
+    scanf("%f", &pib);
+    printf("Informe a quantidade de pontos turísticos: ");
+    scanf("%d", &n_pontos_turisticos);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
